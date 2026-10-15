@@ -1,26 +1,34 @@
-# EEWMS Software Configuration Management Practical
+# Experiment 9 — GitHub for Version Control
 
-This repository demonstrates a Git-based Software Configuration Management (SCM) workflow for an illustrative Employee Engagement and Wellness Management System (EEWMS) Software Requirements Specification (SRS).
+**Case study:** Employee Engagement & Wellness Management System (EEWMS)  
+**Student:** Rajababu Abhimanyu Barik  
+**Roll no.:** 2403013  
+**Batch:** C11
 
-## What the history demonstrates
+## Aim
 
-- Baseline SRS commit (`v1.0`) and annotated baseline tag
-- Change Request 1 on `feature/engagement-enhancements`, then merge to `main`
-- Change Request 2 on `feature/privacy-security-enhancements`, then merge to `main`
-- Final release tag `v2.0`
-- History inspection and source-document comparison using Git
+To study Software Configuration Management (SCM) using Git and GitHub and demonstrate baseline control, a feature branch, merge, release tags, and history/diff inspection using EEWMS project documentation.
 
-## Source of requirements
+## Experiment 9 workflow in this repository
 
-The requirements in `docs/SRS.md` are illustrative example content prepared for this SCM practical. They are not extracted from, nor evidence of approval for, a separately supplied or existing EEWMS SRS. The editable Markdown source is version-controlled because Git can show meaningful textual diffs; PDFs can be generated from approved source versions when needed.
+- Baseline on `main`, marked `exp9-v1.0`.
+- CR-01 developed on `feature/privacy-aware-trends`.
+- CR-01 merged into `main`, marked `exp9-v2.0`.
+- [`reports/Experiment_9_SCM_Report.md`](reports/Experiment_9_SCM_Report.md) records the actual commands and remote verification.
+- [`reports/screenshots/`](reports/screenshots/) contains direct screenshots of the current GitHub diff and history.
 
-## Versioning convention
+## Configuration items
 
-- SRS revision `1.0`: initial illustrative baseline
-- SRS revision `1.1`: engagement and HR analytics change request
-- SRS revision `1.2`: privacy and security change request
-- Git tag `v2.0`: release marker for the combined updated SRS
+- [`docs/EEWMS_SRS_Summary.md`](docs/EEWMS_SRS_Summary.md) — concise summary of the supplied EEWMS SRS; not a replacement for the controlled SRS.
+- [`docs/CI_Register.md`](docs/CI_Register.md) — the configuration-item register.
+- [`change-requests/CR-01-Privacy-Aware-Trends.md`](change-requests/CR-01-Privacy-Aware-Trends.md) — SRS-grounded privacy-aware trend verification record.
 
-## Practical report and evidence
+## Preserved repository history
 
-The completed experiment report is available at [`reports/Experiment_10_SCM_Report.pdf`](reports/Experiment_10_SCM_Report.pdf), with its editable Markdown source alongside it. Direct xterm screenshots of the actual repository diffs, history, and GitHub remote verification are stored in [`reports/terminal-evidence/`](reports/terminal-evidence/). The screenshots are direct captures of executed terminal commands, not AI-generated terminal mockups.
+This repository previously held an Experiment 10 practical. Its older commits and tags (`v1.0`, `v1.1`, and `v2.0`) are preserved for traceability, but those legacy tags refer to the earlier practical. To avoid reusing or moving those tags, this Experiment 9 workflow uses the distinct tags `exp9-v1.0` and `exp9-v2.0`. The old Experiment 10 report and screenshots have been removed from the current `main` tree; their previous versions remain available only through the preserved Git history.
+
+The separately created Experiment 9 repository is also available at [demolished-lab/EEWMS-SCM-Experiment-9](https://github.com/demolished-lab/EEWMS-SCM-Experiment-9).
+
+## Scope and privacy
+
+This practical contains project documentation only. It includes no employee wellness or survey-response data, credentials, or production code. The student's name, roll number, and batch are included for assignment identification. No open-source license is included; public visibility does not grant reuse rights.
