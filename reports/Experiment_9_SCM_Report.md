@@ -104,7 +104,7 @@ The earlier tags `v1.0`, `v1.1`, and `v2.0` were retained unchanged and still re
 
 ## 6. GitHub publication verification
 
-The repository is public at the URL above and GitHub reports `main` as the default branch. The new Experiment 9 refs were pushed: `main` at `a55df37`, `feature/privacy-aware-trends` at `e0186f5`, and tags `exp9-v1.0` and `exp9-v2.0`. Existing branches and tags were left in place.
+The repository is public at the URL above and GitHub reports `main` as the default branch. The release push published `main` at `a55df37`, `feature/privacy-aware-trends` at `e0186f5`, and tags `exp9-v1.0` and `exp9-v2.0`. A later report/screenshot commit advanced `main` to `5fc01dd`; the feature branch and all tag targets remained unchanged. The root-page capture records `main` at `5fc01dd` before that screenshot file was added.
 
 The previous Experiment 10 report and screenshots are no longer present in the current `main` tree. Because history was preserved, their earlier versions remain reachable in older commits; no history rewrite or force push was used.
 
@@ -119,6 +119,10 @@ The following images are direct captures of the public GitHub pages for this rep
 **Figure 2 — Main-branch commit history, including the Experiment 9 baseline and merge above the retained earlier history.**
 
 ![GitHub main-branch commit history](screenshots/github-main-commit-history.webp)
+
+**Figure 3 — Current public repository root showing the Experiment 9 README and file list.**
+
+![GitHub repository root page showing the Experiment 9 tree](screenshots/github-repository-root-main.webp)
 
 Capture page URLs and notes are listed in [`screenshots/README.md`](screenshots/README.md).
 

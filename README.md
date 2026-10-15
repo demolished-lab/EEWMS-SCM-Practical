@@ -15,7 +15,7 @@ To study Software Configuration Management (SCM) using Git and GitHub and demons
 - CR-01 developed on `feature/privacy-aware-trends`.
 - CR-01 merged into `main`, marked `exp9-v2.0`.
 - [`reports/Experiment_9_SCM_Report.md`](reports/Experiment_9_SCM_Report.md) records the actual commands and remote verification.
-- [`reports/screenshots/`](reports/screenshots/) contains direct screenshots of the current GitHub diff and history.
+- [`reports/screenshots/`](reports/screenshots/) contains direct screenshots of the current GitHub root page, diff, and history.
 
 ## Configuration items
 
