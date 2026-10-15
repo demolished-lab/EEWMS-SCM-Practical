@@ -288,7 +288,7 @@ $ git diff --stat v1.1 v2.0 -- docs/SRS.md
  1 file changed, 25 insertions(+), 12 deletions(-)
 ```
 
-At the time of this SCM verification, the working tree was clean and `main` tracked `origin/main`. The branch list showed both feature branches and their GitHub tracking branches. The history used real commit hashes from this run; they are not illustrative sample hashes. The report and screenshot evidence are being added afterward in a separate documentation commit; the `v2.0` tag remains on the SRS release commit `85d7bd1`.
+The outputs above record the SRS workflow verification before I added the report. At that point, the working tree was clean and `main` tracked `origin/main` at `85d7bd1`. I then added the report and its evidence in the documentation commit `b6cdd6b`; Figures 3 and 4 show the repository afterward. This documentation-only change did not move the `v2.0` tag, which remains on the SRS release commit `85d7bd1`.
 
 The remote refs and tag targets were checked with `git ls-remote --heads --tags origin`:
 
@@ -318,13 +318,13 @@ GitHub repository verification returned:
 
 ## 4. Direct screenshots of the actual repository
 
-I captured these images directly from xterm while running the commands shown against the checked-out EEWMS repository. The diff screenshots show the content changes stored under the real `v1.0`, `v1.1`, and `v2.0` tags; the other screenshots show the repository's actual branches, tags, commit history, remote refs, and private GitHub visibility.
+I captured these images directly from xterm while running commands against the checked-out EEWMS repository. For legibility, the two diff commands filter the actual Git diff to show requirement lines; the full change summaries and terminal record appear above. The other screenshots show the repository's actual branches, tags, commit history, remote refs, and private GitHub visibility.
 
-**Figure 1.** Actual terminal diff between the baseline SRS (`v1.0`) and the CR-01 revision (`v1.1`).
+**Figure 1.** Actual terminal excerpt of the diff between the baseline SRS (`v1.0`) and the CR-01 revision (`v1.1`).
 
 ![Direct xterm screenshot: actual v1.0-to-v1.1 SRS diff](terminal-evidence/v1.0-to-v1.1-diff.png)
 
-**Figure 2.** Actual terminal diff between the CR-01 revision (`v1.1`) and the final SRS (`v2.0`).
+**Figure 2.** Actual terminal excerpt of the diff between the CR-01 revision (`v1.1`) and the final SRS (`v2.0`).
 
 ![Direct xterm screenshot: actual v1.1-to-v2.0 SRS diff](terminal-evidence/v1.1-to-v2.0-diff.png)
 
