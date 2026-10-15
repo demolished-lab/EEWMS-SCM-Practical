@@ -20,3 +20,7 @@ The requirements in `docs/SRS.md` are illustrative example content prepared for 
 - SRS revision `1.1`: engagement and HR analytics change request
 - SRS revision `1.2`: privacy and security change request
 - Git tag `v2.0`: release marker for the combined updated SRS
+
+## Practical report and evidence
+
+The completed experiment report is available at [`reports/Experiment_10_SCM_Report.pdf`](reports/Experiment_10_SCM_Report.pdf), with its editable Markdown source alongside it. Direct xterm screenshots of the actual repository diffs, history, and GitHub remote verification are stored in [`reports/terminal-evidence/`](reports/terminal-evidence/). The screenshots are direct captures of executed terminal commands, not AI-generated terminal mockups.
